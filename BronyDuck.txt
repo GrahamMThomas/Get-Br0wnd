@@ -1,0 +1,165 @@
+REM Written by: CwakrJax
+REM grahamthomas.net
+REM This script will change all mac desktops to a brony.
+
+DEFAULT_DELAY 100
+
+CTRL LEFTARROW
+CTRL LEFTARROW
+CTRL LEFTARROW
+CTRL LEFTARROW
+CTRL LEFTARROW
+CTRL LEFTARROW
+
+DELAY 300
+
+REM # Open Terminal and download image
+GUI SPACE
+STRING Terminal
+ENTER
+
+GUI n
+
+STRING cd ~/Pictures/
+ENTER
+
+STRING wget 'http://grahamthomas.net/!!br0wnd.jpg'
+ENTER
+
+DELAY 1000
+
+GUI w
+
+REM # Open System Preferences and Change Desktop 1 Image
+GUI SPACE
+STRING System Preferences
+ENTER
+
+DELAY 500
+
+STRING Desktop Picture
+ENTER
+
+DELAY 500
+
+TAB
+ALT DOWNARROW
+UPARROW
+TAB
+RIGHTARROW
+GUI q
+
+CTRL RIGHTARROW
+
+DELAY 200
+
+REM # Open System Preferences and Change Desktop 2 Image
+GUI SPACE
+STRING System Preferences
+ENTER
+
+DELAY 500
+
+STRING Desktop Picture
+ENTER
+
+DELAY 500
+
+TAB
+ALT DOWNARROW
+UPARROW
+TAB
+RIGHTARROW
+GUI q
+
+CTRL RIGHTARROW
+
+DELAY 200
+REM # Open System Preferences and Change Desktop 3 Image
+GUI SPACE
+STRING System Preferences
+ENTER
+
+DELAY 500
+
+STRING Desktop Picture
+ENTER
+
+DELAY 500
+
+TAB
+ALT DOWNARROW
+UPARROW
+TAB
+RIGHTARROW
+GUI q
+
+CTRL RIGHTARROW
+
+DELAY 200
+REM # Open System Preferences and Change Desktop 4 Image
+GUI SPACE
+STRING System Preferences
+ENTER
+
+DELAY 500
+
+STRING Desktop Picture
+ENTER
+
+DELAY 500
+
+TAB
+ALT DOWNARROW
+UPARROW
+TAB
+RIGHTARROW
+GUI q
+
+CTRL RIGHTARROW
+
+DELAY 200
+REM # Open System Preferences and Change Desktop 5 Image
+GUI SPACE
+STRING System Preferences
+ENTER
+
+DELAY 500
+
+STRING Desktop Picture
+ENTER
+
+DELAY 500
+
+TAB
+ALT DOWNARROW
+UPARROW
+TAB
+RIGHTARROW
+GUI q
+
+CTRL RIGHTARROW
+
+DELAY 200
+REM # Open System Preferences and Change Desktop 6 Image
+GUI SPACE
+STRING System Preferences
+ENTER
+
+DELAY 500
+
+STRING Desktop Picture
+ENTER
+
+DELAY 500
+
+TAB
+ALT DOWNARROW
+UPARROW
+TAB
+RIGHTARROW
+GUI q
+
+CTRL RIGHTARROW
+
+DELAY 200
